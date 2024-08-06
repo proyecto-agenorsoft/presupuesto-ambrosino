@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presupuesto - Agenor IT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg-dark text-light py-5">
+        <div class="container">
+            <header class="d-flex justify-content-between align-items-center mb-3" style="height: 150px;">
+                <div>
+                    <h1 class="fw-bold text-white" style="font-size: 2.5rem;">PRESUPUESTO</h1>
+                    <p class="text-white small" id="fecha">Villa María, Martes 06/08/2024</p>
+                </div>
+                <img src="Transparente.svg" alt="Agenor IT Logo" class="img-fluid mb-3" style="max-height: 150px;">
+            </header>
+            <hr class="text-light">
+            <section class="client-info mb-5">
+                <h2 class="mb-3 text-primary">Cliente</h2>
+                <div class="card bg-dark text-light border-0">
+                    <div class="card-body">
+                        <p><strong>Empresa:</strong> Industrias Graficas Ambrosino SRL</p>
+                        <p><strong>Domicilio:</strong> Buenos Aires 1368 - Barrio Centro, (5900) - Villa Maria – Córdoba</p>
+                        <p><strong>CUIT:</strong> 33-71195772-9</p>
+                        <p><strong>Contacto:</strong> Danilo Ambrosino</p>
+                    </div>
+                </div>
+            </section>
+            <section class="requirements mb-5">
+                <h2 class="mb-3 text-primary">Requerimientos funcionales</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card bg-dark text-light border-0">
+                            <div class="card-header fw-bold bg-dark text-light border-0">Módulo de producción</div>
+                            <ul class="list-group list-group-flush bg-dark text-light">
+                                <li class="list-group-item bg-dark text-light border-light">Gestión de insumos: incluye alta, baja, modificación y consulta.</li>
+                                <li class="list-group-item bg-dark text-light border-light">Gestión de tareas de diseño: incluye alta, baja, modificación y consulta.</li>
+                                <li class="list-group-item bg-dark text-light border-light">Gestión de tareas de producción: incluye alta, baja, modificación y consulta.</li>
+                                <li class="list-group-item bg-dark text-light border-light">Gestión de servicios: incluye alta, baja, modificación y consulta.</li>
+                                <li class="list-group-item bg-dark text-light border-light">Gestión de órdenes de producción: incluye alta, baja, modificación y consulta.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card bg-dark text-light border-0">
+                            <div class="card-header fw-bold bg-dark text-light border-0">Módulo comercial</div>
+                            <ul class="list-group list-group-flush bg-dark text-light">
+                                <li class="list-group-item bg-dark text-light border-light">Gestión de productos: incluye alta, baja, modificación y consulta.</li>
+                                <li class="list-group-item bg-dark text-light border-light">Gestión de proveedores: incluye alta, baja, modificación y consulta.</li>
+                                <li class="list-group-item bg-dark text-light border-light">Gestión de clientes: incluye alta, baja, modificación y consulta.</li>
+                                <li class="list-group-item bg-dark text-light border-light">Gestión de cotizaciones: incluye alta, baja, modificación y consulta.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="configuration mb-5">
+                <h2 class="mb-3 text-primary">Configuración</h2>
+                <ul class="list-group list-group-flush bg-dark text-light border-0 rounded">
+                    <li class="list-group-item bg-dark text-light border-light">Despliegue de app web en servidor gratuito cloud de pruebas o instalación local (El costo y configuración de servicio de hosting se presupuesta aparte)</li>
+                    <li class="list-group-item bg-dark text-light border-light">Periodo de tiempo de prueba 7 días a partir de entrega inicial. Finalizado el periodo de prueba el cliente decide qué servicio de hosting desea y se realiza un presupuesto aparte si la instalación del sistema se hace en la nube en vez de local.</li>
+                </ul>
+            </section>
+            <section class="dates mb-5">
+                <h2 class="mb-3 text-primary">Fechas</h2>
+                <ul class="list-group list-group-flush bg-dark text-light border-0 rounded">
+                    <li class="list-group-item bg-dark text-light border-light">Fecha de entrega inicial: 30/08/2024</li>
+                    <li class="list-group-item bg-dark text-light border-light">Fecha de revisión: 06/09/2024</li>
+                    <li class="list-group-item bg-dark text-light border-light">Fecha de entrega final: 13/09/2024</li>
+                    <li class="list-group-item bg-dark text-light border-light">Fecha de factura: 16/09/2024</li>
+                    <li class="list-group-item bg-dark text-light border-light">Fecha de vto factura: 17/09/2024</li>
+                </ul>
+            </section>
+            <section class="costs mb-5">
+                <h2 class="mb-3 text-primary">Costo de desarrollo</h2>
+                <ul class="list-group list-group-flush bg-dark text-light border-0 rounded">
+                    <li class="list-group-item bg-dark text-light border-light">Precio: $678.787,00</li>
+                    <li class="list-group-item bg-dark text-light border-light">Entrega (a valor actual): -$226.262,33</li>
+                    <li class="list-group-item bg-dark text-light border-light">Bonificación (5%): -$33.939,35</li>
+                    <li class="list-group-item bg-dark text-light border-light"><strong>Precio final: $418.585,32</strong></li>
+                    <li class="list-group-item bg-dark text-light border-light">Incluye garantía de 30 días en lo que respecta a soluciones de problemas técnicos funcionales que puedan surgir durante la implementación y uso del sistema. No incluye el desarrollo de nuevas funcionalidades.</li>
+                </ul>
+            </section>
+            <section class="payment-methods mb-5">
+                <h2 class="mb-3 text-primary">Forma de pago servicio de desarrollo</h2>
+                <ul class="list-group list-group-flush bg-dark text-light border-0 rounded">
+                    <li class="list-group-item bg-dark text-light border-light">Contado efectivo/transferencia:
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item bg-dark text-light border-light">1 pago de $418.585,32</li>
+                            <li class="list-group-item bg-dark text-light border-light">2 pagos de $230.221,92</li>
+                            <li class="list-group-item bg-dark text-light border-light">3 pagos de $160.457,70</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="monthly-license mb-5">
+                <h2 class="mb-3 text-primary">Licencia mensual</h2>
+                <ul class="list-group list-group-flush bg-dark text-light border-0 rounded">
+                    <li class="list-group-item bg-dark text-light border-light">Se abona del 1 al 5 de cada mes</li>
+                    <li class="list-group-item bg-dark text-light border-light">La suspensión del servicio es automática por falta de pago (el sistema avisa por medio de un mensaje/alerta la fecha de pago)</li>
+                    <li class="list-group-item bg-dark text-light border-light"><strong>Precio:</strong> $54.000,00</li>
+                    <li class="list-group-item bg-dark text-light border-light">Actualización mensual por IPC</li>
+                    <li class="list-group-item bg-dark text-light border-light">No incluye tarea de desarrollo. Se presupuestan por separado.</li>
+                </ul>
+            </section>
+            <section class="technical-support mb-5">
+                <h2 class="mb-3 text-primary">Soporte técnico</h2>
+                <ul class="list-group list-group-flush bg-dark text-light border-0 rounded">
+                    <li class="list-group-item bg-dark text-light border-light">Incluye: Capacitaciones y configuraciones del sistema</li>
+                    <li class="list-group-item bg-dark text-light border-light">No incluye: Desarrollo de funcionalidades nuevas o cambios en las funcionalidades desarrolladas.</li>
+                    <li class="list-group-item bg-dark text-light border-light"><strong>Precio por hora:</strong> $25.000,00</li>
+                    <li class="list-group-item bg-dark text-light border-light">Actualización mensual por IPC</li>
+                    <li class="list-group-item bg-dark text-light border-light">Demora promedio de respuesta: 24 hs</li>
+                    <li class="list-group-item bg-dark text-light border-light">Email: proyectoagenorsoft@gmail.com</li>
+                    <li class="list-group-item bg-dark text-light border-light">WhatsApp: +353 4097246</li>
+                </ul>
+            </section>
+            <section class="bank-info mb-5">
+                <h2 class="mb-3 text-primary">Información Bancaria</h2>
+                <ul class="list-group list-group-flush bg-dark text-light border-0 rounded">
+                    <li class="list-group-item bg-dark text-light border-light"><strong>CBU/Alias:</strong> 4530000800019213694182 / HGROSSO0336.NX.ARS</li>
+                </ul>
+            </section>
+            <section class="cancellation-policy mb-5">
+                <h2 class="mb-3 text-primary">Política de Cancelación</h2>
+                <ul class="list-group list-group-flush bg-dark text-light border-0 rounded">
+                    <li class="list-group-item bg-dark text-light border-light">El cliente puede solicitar la baja de servicio con una anticipación no menor a 10 días hábiles.</li>
+                    <li class="list-group-item bg-dark text-light border-light">La cancelación se hace efectiva el último día calendario del mes en curso.</li>
+                    <li class="list-group-item bg-dark text-light border-light">La baja del sistema es automática. Las credenciales quedan bloqueadas sin posibilidad de acceso.</li>
+                    <li class="list-group-item bg-dark text-light border-light">La rehabilitación de las credenciales tiene un costo que es igual al costo de licencia mensual. El mismo se debe abonar de contado para restituir el servicio.</li>
+                </ul>
+            </section>
+            <section class="legal-clause mb-5">
+                <h2 class="mb-3 text-primary">Cláusula Legal</h2>
+                <p class="bg-dark p-3 rounded text-light fw-bold">
+                    En caso de cualquier controversia o disputa que surja en relación con el presente presupuesto o con el contrato de licencia de uso que se firme en base al mismo, las partes acuerdan someterse a la jurisdicción exclusiva de los Tribunales Ordinarios de la ciudad de Villa María, Provincia de Córdoba, República Argentina, y renuncian a cualquier otro fuero o jurisdicción que pudiera corresponderles.
+                </p>
+            </section>
+            <section class="observations mb-5">
+                <h2 class="mb-3 text-primary">Observaciones</h2>
+                <p class="bg-dark p-3 rounded text-light fw-bold">Presupuesto sujeto a revisión conjunta entre el destinatario del mismo y Agenor IT de Hernán Alberto Grosso. Las partes se comprometen a respetar las condiciones indicadas en el presente documento y a firmar un contrato de licencia de uso en el caso de ser aceptado.</p>
+            </section>
+            <hr class="text-light">
+
+            <footer class="text-center mt-5">
+                <p class="small text-light fw-bold">Agenor IT</p>
+                <p class="small text-light fw-bold">De Hernán Alberto Grosso</p>
+                <p class="small text-light fw-bold">Santa Fé 598 3P, Villa Maria, Córdoba</p>
+                <p class="small text-light fw-bold">CUIT: 20325203367</p>
+            </footer>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <script>
+        // Set the current date
+        document.getElementById('fecha').innerText = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
