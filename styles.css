@@ -1,0 +1,42 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #1a1a1a; /* Color de fondo uniforme */
+    color: #f8f9fa; /* Color de texto claro */
+    margin: 0;
+}
+
+hr.text-light {
+    border: 1px solid #f8f9fa;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+header .img-fluid {
+    max-height: 100px;
+}
+
+header .fw-bold {
+    margin: 0;
+    line-height: 100px; /* Asegura que el texto esté centrado verticalmente */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.card {
+    background-color: #1a1a1a !important; /* Color de fondo de las tarjetas */
+}
+
+.list-group-item {
+    background-color: #1a1a1a !important; /* Color de fondo de los ítems de la lista */
+    border: 1px solid #444 !important; /* Color de borde de los ítems de la lista */
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.8rem;
+}
